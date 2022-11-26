@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
-  content: "Fallout Terminal Version 1.3.15";
+  content: "Lego's Modded HL1 Terminal Version 1.0";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -62,10 +62,10 @@
 
 /* --== Change font ==-- */
 html, body {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: monospace, monospace;
 }
 
-/* --== Add CRT effect ==-- */
+/* --== Add CRT effect ==--
 html,body::before, .root-2zfUH6::before,
 .standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
 .inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-cfY57t::before,
@@ -84,7 +84,7 @@ html,body::before, .root-2zfUH6::before,
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
-}
+} --== remove the little thingie at the end and "--== Add CRT effect ==--" to re-add the crt ==-- */
 
 /* --== Make sure the BetterDiscord version is readable ==-- */
 .colorMuted-20987_ {
